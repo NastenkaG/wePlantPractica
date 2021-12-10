@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     xmlns:tools="http://schemas.android.com/tools"
+     tools:context=".FragmentHome">
+
+     <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+         <ImageView
+             android:id="@+id/homeImageWelcome"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/home_header"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent" />
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/home_header_shade"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent" />
+
+         <TextView
+             android:id="@+id/textView"
+             android:layout_width="321dp"
+             android:layout_height="98dp"
+             android:layout_marginStart="33dp"
+             android:layout_marginTop="96dp"
+             android:layout_marginEnd="33dp"
+             android:text="@string/home_welcome"
+             android:textAlignment="center"
+             android:textColor="@color/white"
+             android:textSize="25sp"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent" />
+
+         <TextView
+             android:id="@+id/homeTextViewWelcome"
+             android:layout_width="379dp"
+             android:layout_height="102dp"
+             android:layout_marginTop="30dp"
+             android:text="@string/home_text_welcome"
+             android:textColor="@color/black"
+             android:textSize="18sp"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@+id/homeImageWelcome" />
+
+         <TextView
+             android:id="@+id/homeTextViewQuestion"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="18dp"
+             android:layout_marginTop="12dp"
+             android:text="@string/home_question"
+             android:textColor="@color/black"
+             android:textSize="20sp"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@+id/homeTextViewWelcome" />
+
+         <ImageView
+             android:id="@+id/homeImageViewIndoor"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="20dp"
+             android:layout_marginTop="25dp"
+             android:background="@drawable/home_indoor"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@+id/homeTextViewQuestion" />
+
+         <ImageView
+             android:id="@+id/homeImageViewFrendly"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="25dp"
+             android:background="@drawable/home_frendly"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toEndOf="@+id/homeImageViewIndoor"
+             app:layout_constraintTop_toBottomOf="@+id/homeTextViewQuestion" />
+
+         <ImageView
+             android:id="@+id/homeImageViewPopular"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="20dp"
+             android:layout_marginTop="20dp"
+             android:background="@drawable/home_popular"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@+id/homeImageViewIndoor"/>
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:background="@drawable/home_light"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toEndOf="@+id/homeImageViewPopular"
+             app:layout_constraintTop_toBottomOf="@+id/homeImageViewFrendly" />
+
+
+     </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
