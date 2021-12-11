@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WePlantPractica">
         <activity
-            android:name=".ScreenSplash"
+            android:name=".MenuScreen"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
