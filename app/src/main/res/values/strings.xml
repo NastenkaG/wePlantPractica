@@ -9,10 +9,10 @@
     <string name="menu_aid">Помощь</string>
     <string name="menu_community">Сообщество</string>
     <string name="home_welcome">Откройте для себя красивые комнатные растения и
-узнайте, как за ними ухаживать</string>
+        узнайте, как за ними ухаживать</string>
     <string name="home_text_welcome">Ищете что-то простое для начала?
- Или вы ищете то единственное растение, которое будет отлично смотреться в вашей спальне?
- Эти категории помогут вам быстро начать работу!</string>
+        Или вы ищете то единственное растение, которое будет отлично смотреться в вашей спальне?
+        Эти категории помогут вам быстро начать работу!</string>
     <string name="home_question">Какое растение вы ищете?</string>
     <string name="home_indoor">Легкие комнатные растения</string>
     <string name="home_popular">Популярные растения</string>
@@ -21,5 +21,11 @@
     <string name="home_ask">Хотите улучшить навыки садовода? Ознакомьтесь с этими руководствами:</string>
     <string name="home_guide">Руководство по поливу</string>
     <string name="home_watering">Узнайте все об основах полива!</string>
+    <string name="home_guide2">Руководство по освещению</string>
+    <string name="home_lighting">Какое лучшее место для вашей новой плантации?</string>
+    <string name="library_heading">Библиотека растений</string>
+    <string name="community_post">Post 1 - Домашние животные и растения</string>
+    <string name="community_explanation_post">Как наши четвероногие друзья относятся к
+        комнатным растениям?</string>
 
 </resources>
