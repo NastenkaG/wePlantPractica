@@ -1,13 +1,15 @@
 package com.example.weplantpractica
 
-import android.os.Bundle
-import com.example.weplantpractica.databinding.MenuScreenBinding
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import com.example.weplantpractica.databinding.ActivityMenuScreenBinding
 
-class ScreenMenu : AppCompatActivity() {
-    lateinit var binding: MenuScreenBinding
+class MenuScreen : AppCompatActivity() {
+    lateinit var binding: ActivityMenuScreenBinding
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
+        binding = ActivityMenuScreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.menuBottomNavigation.setOnItemSelectedListener { menu ->
             when (menu.itemId) {

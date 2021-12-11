@@ -1,19 +1,25 @@
 <resources>
     <string name="app_name">wePlantPractica</string>
-    <string name="splash_go">Start</string>
-    <string name="menu_home">Home</string>
-    <string name="menu_library">Plant Library</string>
-    <string name="menu_aid">First Aid</string>
-    <string name="menu_community">Community</string>
-    <string name="home_welcome">Discover beautiful houseplants and
-        learn how to care of them</string>
-    <string name="home_text_welcome">Looking for something easy to get started?
-        Or are you searching for that one plant that will look great in your bedroom?
-        These quick categories will get you started quickly!</string>
-    <string name="home_question">What plant are you looking for?</string>
-    <string name="home_indoor">Easy indoor plants</string>
-    <string name="home_popular">Popular plants</string>
-    <string name="home_friendly">Animal friendly plants</string>
-    <string name="home_light">Low light plants</string>
+    <string name="splash_hi">Привет, я Вайолет!</string>
+    <string name="splash_violet">Существует так много растений на выбор,
+        что легко почувствовать себя потерянным. Позволь мне помочь тебе выбрать что-нибудь.</string>
+    <string name="splash_go">Начать</string>
+    <string name="menu_home">Главная</string>
+    <string name="menu_library">Библиотека</string>
+    <string name="menu_aid">Помощь</string>
+    <string name="menu_community">Сообщество</string>
+    <string name="home_welcome">Откройте для себя красивые комнатные растения и
+узнайте, как за ними ухаживать</string>
+    <string name="home_text_welcome">Ищете что-то простое для начала?
+ Или вы ищете то единственное растение, которое будет отлично смотреться в вашей спальне?
+ Эти категории помогут вам быстро начать работу!</string>
+    <string name="home_question">Какое растение вы ищете?</string>
+    <string name="home_indoor">Легкие комнатные растения</string>
+    <string name="home_popular">Популярные растения</string>
+    <string name="home_friendly">Растения, благоприятные для животных</string>
+    <string name="home_light">Растения, требующие мало света</string>
+    <string name="home_ask">Хотите улучшить навыки садовода? Ознакомьтесь с этими руководствами:</string>
+    <string name="home_guide">Руководство по поливу</string>
+    <string name="home_watering">Узнайте все об основах полива!</string>
 
 </resources>
