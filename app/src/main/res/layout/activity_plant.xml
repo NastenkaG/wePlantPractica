@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PlantActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/plantVverx1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/plant_vverx1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/plantVverx2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/plant_vverx2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/plantVverx1" />
+
+
+            <ImageView
+                android:id="@+id/plantExit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/plant_icon_exit"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/plantTextName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="33dp"
+                android:text="@string/library_plant_name"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/plantExit"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/plantImage"
+                android:layout_width="315dp"
+                android:layout_height="318dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/plant_big_image"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/plantTextName" />
+
+            <ImageView
+                android:id="@+id/plantIconChelovec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/plant_icon_chelovec"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/plantImage" />
+
+            <TextView
+                android:id="@+id/plantTextDifficulty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/plant_difficulty"
+                android:textColor="@color/grey_text"
+                android:textSize="13sp"
+                app:layout_constraintStart_toEndOf="@+id/plantIconChelovec"
+                app:layout_constraintTop_toBottomOf="@+id/plantImage" />
+
+            <TextView
+                android:id="@+id/plantTextDifficultyExplanation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/plant_difficulty_explanation"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/plantIconChelovec"
+                app:layout_constraintTop_toBottomOf="@+id/plantTextDifficulty" />
+
+            <ImageView
+                android:id="@+id/plantIconSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="120dp"
+                android:background="@drawable/plant_icon_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/plantImage" />
+
+            <TextView
+                android:id="@+id/plantTextSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/plant_size"
+                android:textColor="@color/grey_text"
+                android:textSize="13sp"
+                app:layout_constraintStart_toEndOf="@+id/plantIconSize"
+                app:layout_constraintTop_toBottomOf="@+id/plantImage" />
+
+            <TextView
+                android:id="@+id/plantTextSizeExplanation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/plant_size_explanation"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/plantIconSize"
+                app:layout_constraintTop_toBottomOf="@+id/plantTextSize" />
+
+            <ImageView
+                android:id="@+id/plantIconLight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/plant_icon_light"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/plantIconChelovec" />
+
+            <TextView
+                android:id="@+id/plantTextLight"
+                android:layout_width="114dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/plant_light"
+                android:textColor="@color/grey_text"
+                android:textSize="11sp"
+                app:layout_constraintStart_toEndOf="@+id/plantIconLight"
+                app:layout_constraintTop_toBottomOf="@+id/plantTextDifficultyExplanation" />
+
+            <TextView
+                android:id="@+id/plantTextLightExplanation"
+                android:layout_width="133dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/plant_light_explanation"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/plantIconLight"
+                app:layout_constraintTop_toBottomOf="@+id/plantTextLight" />
+
+            <ImageView
+                android:id="@+id/plantIconRoom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="120dp"
+                android:background="@drawable/plant_icon_room"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/plantIconSize" />
+
+            <TextView
+                android:id="@+id/plantTextRoom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/plant_room"
+                android:textColor="@color/grey_text"
+                android:textSize="13sp"
+                app:layout_constraintStart_toEndOf="@+id/plantIconRoom"
+                app:layout_constraintTop_toBottomOf="@+id/plantTextSizeExplanation" />
+
+            <TextView
+                android:id="@+id/plantTextRoomExplanation"
+                android:layout_width="84dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/plant_room_explanation"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/plantIconRoom"
+                app:layout_constraintTop_toBottomOf="@+id/plantTextRoom" />
+
+            <ImageView
+                android:id="@+id/plantFon1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/plant_fon_crug"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/plantTextLightExplanation" />
+
+            <ImageView
+                android:id="@+id/plantFon2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/plant_fon_kvadrat"
+                app:layout_constraintTop_toBottomOf="@+id/plantFon1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/plantFon3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/plant_fon_kvadrat"
+                app:layout_constraintTop_toBottomOf="@+id/plantFon2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/plantFon4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/plant_fon_kvadrat"
+                app:layout_constraintTop_toBottomOf="@+id/plantFon3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

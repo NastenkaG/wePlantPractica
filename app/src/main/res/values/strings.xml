@@ -27,5 +27,17 @@
     <string name="community_post">Post 1 - Домашние животные и растения</string>
     <string name="community_explanation_post">Как наши четвероногие друзья относятся к
         комнатным растениям?</string>
+    <string name="library_plant_name">Алокасия Амазонская</string>
+    <string name="library_plant_explanation">Сложность: промежуточная
+Пространство: гостинная</string>
+    <string name="plant_difficulty">Сложность</string>
+    <string name="plant_difficulty_explanation">Промежуточная</string>
+    <string name="plant_light">Требовательность к свету</string>
+    <string name="plant_light_explanation">Избегайте прямых солнечных лучей</string>
+    <string name="plant_size">Размер</string>
+    <string name="plant_size_explanation">Средний</string>
+    <string name="plant_room">Комната</string>
+    <string name="plant_room_explanation">Гостинная</string>
+
 
 </resources>
