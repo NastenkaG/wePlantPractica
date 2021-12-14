@@ -5,12 +5,15 @@
       <map>
         <entry key="..\:/practica/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
         <entry key="..\:/practica/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/practica/app/src/main/res/layout/activity_light.xml" value="0.25416666666666665" />
         <entry key="..\:/practica/app/src/main/res/layout/activity_menu_screen.xml" value="0.25416666666666665" />
-        <entry key="..\:/practica/app/src/main/res/layout/activity_plant.xml" value="0.2" />
+        <entry key="..\:/practica/app/src/main/res/layout/activity_plant.xml" value="0.152" />
+        <entry key="..\:/practica/app/src/main/res/layout/activity_ropotting.xml" value="0.25416666666666665" />
         <entry key="..\:/practica/app/src/main/res/layout/activity_splash_screen.xml" value="0.24010416666666667" />
-        <entry key="..\:/practica/app/src/main/res/layout/fragment_aid.xml" value="0.25416666666666665" />
+        <entry key="..\:/practica/app/src/main/res/layout/activity_watering.xml" value="0.2" />
+        <entry key="..\:/practica/app/src/main/res/layout/fragment_aid.xml" value="0.176" />
         <entry key="..\:/practica/app/src/main/res/layout/fragment_community.xml" value="0.25416666666666665" />
-        <entry key="..\:/practica/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/practica/app/src/main/res/layout/fragment_home.xml" value="0.2" />
         <entry key="..\:/practica/app/src/main/res/layout/fragment_library.xml" value="0.25416666666666665" />
         <entry key="..\:/practica/app/src/main/res/layout/fragment_library_animal.xml" value="0.1935185185185185" />
         <entry key="..\:/practica/app/src/main/res/layout/fragment_library_indoor.xml" value="0.264" />
