@@ -1,5 +1,6 @@
 package com.example.weplantpractica
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -15,6 +16,14 @@ class FragmentHome : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentHomeBinding.inflate(inflater, container, false)
+        binding.imageView.setOnClickListener{
+            val intent = Intent(context, WateringActivity::class.java)
+            startActivity(intent)
+        }
+        binding.imageView2.setOnClickListener{
+            val intent = Intent(context, LightActivity::class.java)
+            startActivity(intent)
+        }
         return binding.root
     }
 }

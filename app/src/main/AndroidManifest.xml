@@ -10,13 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WePlantPractica">
         <activity
-            android:name=".SplashScreen"
+            android:name=".RepottingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LightActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WateringActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PlantActivity"
             android:exported="true" />
         <activity
             android:name=".MenuScreen"
             android:exported="true" />
         <activity
-            android:name=".PlantActivity"
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
