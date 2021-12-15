@@ -20,6 +20,14 @@ class FragmentAid : Fragment() {
             val intent = Intent(context, WateringActivity::class.java)
             startActivity(intent)
         }
+        binding.aidImageNextLight.setOnClickListener {
+            val intent = Intent(context, LightActivity::class.java)
+            startActivity(intent)
+        }
+        binding.aidImageNextRepotting.setOnClickListener {
+            val intent = Intent(context, RepottingActivity::class.java)
+            startActivity(intent)
+        }
         return binding.root
     }
 }

@@ -7,7 +7,6 @@ import com.example.weplantpractica.databinding.ActivityMenuScreenBinding
 class MenuScreen : AppCompatActivity() {
     lateinit var binding: ActivityMenuScreenBinding
     override fun onCreate(savedInstanceState: Bundle?) {
-
         super.onCreate(savedInstanceState)
         binding = ActivityMenuScreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
