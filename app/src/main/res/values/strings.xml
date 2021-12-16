@@ -166,6 +166,14 @@
         специальный гравий или гидрогранулы. Помещая их на дно кастрюли,
         они поглощают избыток воды и медленно высвобождают ее с течением времени.</string>
 
+    <string name="video">https://disk.yandex.ru/i/QrgLhERr01d3Nw</string>
+
+
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="paused">Paused…</string>
+    <string name="playing">Playing…</string>
 
 
 </resources>
