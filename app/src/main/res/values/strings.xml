@@ -28,7 +28,8 @@
     <string name="home_guide2">Руководство по освещению</string>
     <string name="home_lighting">Какое лучшее место для вашей новой плантации?</string>
     <string name="library_heading">Библиотека растений</string>
-    <string name="community_post">Post 1 - Домашние животные и растения</string>
+    <string name="community_post1">Post 1 - Необычные растения для вашего дома</string>
+    <string name="community_post2">Post 2 - Домашние животные и растения</string>
     <string name="community_explanation_post">Как наши четвероногие друзья относятся к
         комнатным растениям?</string>
     <string name="library_plant_name">Алокасия Амазонская</string>
@@ -168,12 +169,6 @@
 
     <string name="video">https://disk.yandex.ru/i/QrgLhERr01d3Nw</string>
 
-
-
-    <string name="play">Play</string>
-    <string name="pause">Pause</string>
-    <string name="paused">Paused…</string>
-    <string name="playing">Playing…</string>
 
 
 </resources>
