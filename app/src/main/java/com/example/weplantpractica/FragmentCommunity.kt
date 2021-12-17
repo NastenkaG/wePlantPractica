@@ -9,7 +9,11 @@ import android.view.ViewGroup
 import android.widget.VideoView
 import androidx.fragment.app.Fragment
 import com.example.weplantpractica.databinding.FragmentCommunityBinding
-import android.R
+import android.media.MediaPlayer
+
+import android.media.MediaPlayer.OnVideoSizeChangedListener
+
+import android.media.MediaPlayer.OnPreparedListener
 
 
 
@@ -22,36 +26,23 @@ class FragmentCommunity : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentCommunityBinding.inflate(inflater, container, false)
-//        val vidAddress = "https://www.youtube.com/watch?v=B_hRf0J4RLc"
-//        val vidUri = Uri.parse(vidAddress)
-//        binding.videoView.setVideoURI(vidUri)
-//        binding.videoView.start()
+        val path = "android.resource://com.example.weplantpractica/" + R.raw.video
+        binding.videoView.setVideoURI(Uri.parse(path))
+        binding.videoView.setOnPreparedListener{ mp ->
+            mp.setOnVideoSizeChangedListener { mp, width, height ->
+                val mc = MediaController(context)
+                binding.videoView.setMediaController(mc)
+                mc.setAnchorView(binding.videoView)
+            }
+        }
+        binding.videoView.start()
 //        val mediaController = MediaController(context)
 //        mediaController.setAnchorView(binding.videoView)
-//        binding.videoView.setVideoURI(Uri.parse("https://www.youtube.com/watch?v=B_hRf0J4RLc"))
+//        binding.videoView.setVideoURI(Uri.parse(path))
 //        binding.videoView.setMediaController(mediaController)
 //        binding.videoView.requestFocus()
 //        binding.videoView.start()
-        //binding.videoView.setVideoURI(Uri.parse("https://www.youtube.com/watch?v=B_hRf0J4RLc"))
-
-//       val path = "android.resource://" + getPackageName() + "/" + R.raw.video
-//        binding.videoView.setVideoURI(Uri.parse(path))
-//        binding.btnPlay.setOnClickListener {
-//            val isPlaying = binding.videoView.isPlaying
-//            binding.btnPlay.setText(if (isPlaying) R.string.play else R.string.pause)
-//
-//            val msg = getString(if (isPlaying) R.string.paused else R.string.playing)
-//            if (isPlaying) {
-//                binding.videoView.pause()
-//            } else {
-//                binding.videoView.start()
-//            }
-//        }
-//
-//        binding.videoView.setOnCompletionListener {
-//            binding.btnPlay.text = getString(R.string.play)
-//        }
-
+//        mediaController.setPadding(0, 230, 0, 500)
         return binding.root
     }
 }
